@@ -1,0 +1,45 @@
+page-page2 {
+  .scroll-content {
+
+    background: url("../assets/img/bgtexture.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+  }
+
+  .toolbar-background {
+
+    background: transparent !important;
+  }
+  .button-inner{
+    color:#7B4E20;
+  }
+
+  ion-searchbar{
+    border-top: none !important;
+    border-bottom: none !important;;
+    background: none !important;;
+  }
+
+  .searchbar-input{
+
+    background-color: rgba(255, 255, 255, 0.47) !important;
+  }
+
+
+  .listbutton {
+    background: url("../assets/img/listbg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    color:white;
+    padding-top: 2px;
+    height: 55px !important;
+
+
+  }
+
+  ion-item{
+    background:  none !important;
+  }
+}

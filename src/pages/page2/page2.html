@@ -1,0 +1,35 @@
+
+
+<ion-content>
+
+<div fixed>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+  </ion-navbar>
+
+
+  <ion-searchbar></ion-searchbar>
+</div>
+
+
+
+
+    <ion-list no-lines no-border>
+
+
+      <ion-item *ngFor="let location of locations">
+        <button full clear class="listbutton" ion-button>{{location.name}}</button>
+      </ion-item>
+
+    </ion-list>
+
+
+
+
+
+
+
+</ion-content>
